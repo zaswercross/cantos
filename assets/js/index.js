@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+const arNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'Cm', 'C#m', 'Dm', 'D#m', 'Em', 'Fm', 'F#m', 'Gm', 'G#m', 'Am', 'A#m', 'Bm'];
 // let interva = setInterval(()=>{
 // 	getActual();	
 // },500)

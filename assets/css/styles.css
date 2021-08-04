@@ -1,12 +1,36 @@
-*{
+* {
 	font-family: 'Roboto', sans-serif;
-}
-.searchClient, .addClient {
+	}
+
+.searchClient,
+.addClient {
 	position: fixed;
 	bottom: 2em;
 	left: 2em;
 }
+
 .addClient {
 	right: 2em;
 	left: initial;
+}
+
+tn {
+	font-weight: bold;
+	color: cornflowerblue;
+}
+.card-header {
+    padding: .25rem;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    position: absolute;
+	bottom: 8.2em;
+    left: 0em;
+}
+.card-header.intro {
+    bottom: 2.5em;
+    left: 0em;
+}
+p {
+    margin-bottom: .31rem;
 }
