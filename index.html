@@ -41,13 +41,6 @@
 				<a class="navbar-brand mx-auto" href="#">
 					<img src="assets/img/fav/favicon-32x32.png" alt="">
 				</a>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav w-100 mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#"></a>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</nav>
 		<nav aria-label="Page navigation letras">
@@ -90,10 +83,9 @@
 						<button type="button" class="btn-close btn-stop" data-bs-dismiss="modal" aria-label="Close"></button>
 					</div>
 					<div class="modal-body">
-						<audio autoplay preload="auto">
-							<source src="assets/song/146.mp3" type="audio/mpeg">
-							No es compatible con AUDIO en HTML
-						  </audio>
+						<!-- <audio autoplay preload="auto" id="audio">
+							
+						  </audio> -->
 						<div class="container-fluid bd-example-row">
 							<div class="row">
 								<div class="col-md-6">
@@ -248,16 +240,16 @@
 							<td><i class="fa fa-check text-success"></i></td>
 							<td>146</td>
 							<td>Bm</td>
-							<td><button data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-success text-white"><i class="fa fa-play"></i></button></td>
-							<td><button data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-warning"><i class="fa fa-plus"></i></button></td>
+							<td><button data-bpm="146" data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-success text-white fa fa-play"></button></td>
+							<td><button data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-warning fa fa-plus"></button></td>
 						</tr>
 						<tr class="text-center">	
 							<td>Al que es digno</td>
 							<td><i class="fa fa-check text-success"></i></td>
-							<td>-</td>
+							<td>50</td>
 							<td>Bm</td>
-							<td><button data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-success text-white"><i class="fa fa-play"></i></button></td>
-							<td><button data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-warning"><i class="fa fa-plus"></i></button></td>
+							<td><button data-bpm="50" data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-success text-white fa fa-play"></button></td>
+							<td><button data-bs-backdrop="static" data-bs-keyboard="false" data-bs-toggle="modal" data-bs-target="#modalSong" class="btn-play btn btn-sm btn-warning fa fa-plus"></button></td>
 						</tr>
 					</tbody>
 				</table>
