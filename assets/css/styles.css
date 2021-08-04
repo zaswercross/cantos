@@ -1,3 +1,6 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
 .searchClient, .addClient {
 	position: fixed;
 	bottom: 2em;
