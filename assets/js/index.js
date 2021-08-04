@@ -3,7 +3,16 @@
 
 
 
-
+document.querySelectorAll('.btn-play').forEach( e => {
+	e.addEventListener('click', el =>{
+		document.querySelector('audio').play()
+	})
+} )
+document.querySelectorAll('.btn-stop').forEach( e => {
+	e.addEventListener('click', el =>{
+		document.querySelector('audio').pause()
+	})
+} )
 
 const arNotes = ['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B', 'Cm', 'C#m', 'Dm', 'D#m', 'Em', 'Fm', 'F#m', 'Gm', 'G#m', 'Am', 'A#m', 'Bm'];
 // let interva = setInterval(()=>{

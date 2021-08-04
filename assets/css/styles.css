@@ -34,3 +34,15 @@ tn {
 p {
     margin-bottom: .31rem;
 }
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+	#modalSong .modal-body{
+		padding: 1rem 0.8rem;
+	}	
+	#modalSong .container-fluid.bd-example-row{
+		padding: 0rem;
+	}	
+	#modalSong .modal-header {
+		padding: 0.4rem 1rem;
+	}
+}
